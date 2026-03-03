@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant selectors</title>
+    <style>
+        div p{
+            color: red;
+        }
+        /* it selects p tags inside div only, not outside div */
+        /* it selects all not only child but also its descendants */
+    </style>
+</head>
+<body>
+    <p>first para</p>
+    <h1>first heading</h1>
+    <p>second para</p>
+    <p>third para</p>
+    <div>
+        <p>first para inside div tag</p>
+        <h1>first heading inside div tag</h1>
+        <p>second para inside div tag</p>
+        <div>
+            <p>item 1</p>
+            <p>item 2</p>
+        </div>
+    </div>
+</body>
+</html>
