@@ -1,0 +1,49 @@
+.p1{
+    background-color: aqua;
+}
+
+.p2{
+    color: violet;
+}
+
+.para{
+    background: yellow;
+    color: red;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    justify-content: center;
+    /* Here justify-content:brings the boxes to the center of the page */
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    /* here justify-content:brings the content inside the 
+    box and centres it horizontally */
+    /* aligin items centers vertically */
+    align-items: center;
+    
+}
+
+.red{
+    background: red;
+}
+
+.green{
+    background: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background: yellow;
+}
