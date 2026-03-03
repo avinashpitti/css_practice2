@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adjacent sibling selector</title>
+    <style>
+        h1+p{
+            color: white;
+            background: brown;
+            /* It selects only the first p tag after h1 */
+            /* If there is no h1 infront of p tag no selection */
+        }
+
+        p+h2{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is heading 1</h1>
+    <p>This is para 1</p>
+    <p>This is para 2</p>
+
+    <h2>This is heading 2</h2>
+</body>
+</html>
