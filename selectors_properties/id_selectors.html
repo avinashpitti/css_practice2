@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id_selectors</title>
+    <style>
+        #para{
+    color: red;
+    }
+    </style>
+</head>
+<body>
+    <!-- Id selectors are unique -->
+    <!-- Even though it works in css, but it fails in js -->
+     <p id="para">para 1</p>
+     <p id="para">para 2</p>
+
+     <script>
+        document.getElementById('para').innerHTML='The content is changed';
+        document.getElementById('para').style.color='blue'
+        // see it works only for first p tag, not second
+     </script>
+</body>
+</html>
