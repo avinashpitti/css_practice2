@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class validation</title>
+    <style>
+        input:valid {
+        border: 2px solid green;
+        }
+        
+
+        input:invalid {
+        border: 2px solid red;
+        }
+
+        input:focus {
+        border: 2px solid blue;
+        outline: none;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" required> <br> <br>
+    <input type="text"> <br><br>
+    <input type="email" placeholder="Enter email"> <br><br>
+    <input type="submit" value="login">
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css specificity</title>
+    <style>
+        p{
+            color: blue;
+        }
+        p{
+            color: red;
+        }
+        /* here both has the same specificity latest wins(red) */
+    </style>
+</head>
+<body>
+    <!--
+    inline style > id > class(class > pseudo-class) > element( (div,p),pseudo-element ::before)
+     -->
+    <p>para 1</p>
+</body>
+</html>
