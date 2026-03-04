@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+    <style>
+        a:hover{
+            background: blue;
+            color: red;
+        }
+        /* class has higher specificity than element(a) */
+        .cl1:hover{
+            background: green;
+            color: white;
+        }
+
+        button:hover{
+            background-color: burlywood;
+            color: white;
+            border: none;
+            border-radius: 3px;
+        }
+
+        button:active{
+            background-color: green;
+            /* when the button is clicked */
+        }
+        input:focus{
+            border:2px solid blue;
+            outline:none;
+            background-color: aqua;
+        }
+
+        p:first-child{
+            color: red;
+        }
+
+        p:last-child{
+            color: green;
+        }
+
+        p:nth-child(odd){
+            background-color: aquamarine;
+        }
+
+        p:nth-child(4){
+            font-size: 40px;
+            /* It selects elements based on position number */
+        }
+
+        li:not(.special){
+            font-size: 25px;
+            color: white;
+            background-color: yellow;
+            margin: 4px;
+            /* It selects all except that class element */
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.facebook.com" target="_blank">facebook</a>
+    <a href="https://www.google.com" target="_blank" class="cl1">google</a>
+    <br><br>
+    <input type="text" placeholder="Enter name">
+    <button>Submit</button>
+
+    <div>
+    <p>first para</p>
+    <p>second para</p>
+    <p>third para</p>
+    <p>fourth para</p>
+    <p>fifth para</p>
+
+    </div>
+    <ul>
+        <li>list one</li>
+        <li>list two</li>
+        <li class="special">list three</li>
+        <li>list four</li>
+        <li class="special">list five</li>
+    </ul>
+
+</body>
+</html>

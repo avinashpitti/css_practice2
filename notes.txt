@@ -1,0 +1,11 @@
+pseudo class: 
+a pseudo class defines a specific state of an element
+pseudo clases use single colon (:)
+ex:
+    when user hovers
+    when iput is focused
+    when link is visited
+    when element is first child
+    a:hover{
+        color:red;
+    }
