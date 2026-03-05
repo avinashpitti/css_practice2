@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex_wrap</title>
+    <style>
+    .container{
+    display:flex;
+    /* flex-wrap: nowrap; It's default*/
+    flex-wrap: wrap;
+    width:300px;
+    border:2px solid black;
+}
+
+/* flex-direction:row;
+   flex-wrap:wrap 
+   flex-flow: row wrap(shorthand for both direction and wrap)  */
+
+.box{
+    width:120px;
+    height:80px;
+    background:orange;
+    margin:5px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+</div>
+</body>
+</html>

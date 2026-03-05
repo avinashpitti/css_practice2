@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gap in flex</title>
+    <style>
+        .container{
+    display:flex;
+    flex-wrap: wrap;
+    /* we can use it with or without flex-wrap */
+    gap: 20px;
+    /* row-gap: 10px; */
+    /* column-gap: 50px; */
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background:orange;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="box">1</div>
+<div class="box">2</div>
+<div class="box">3</div>
+<div class="box">4</div>
+<div class="box">5</div>
+<div class="box">6</div>
+<div class="box">7</div>
+<div class="box">8</div>
+</div>
+</body>
+</html>

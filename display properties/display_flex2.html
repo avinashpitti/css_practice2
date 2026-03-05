@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display_flex</title>
+    <style>
+        .container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+}
+
+.box{
+    display: flex;
+    width:100px;
+    height:100px;
+    background:orange;
+    justify-content: center;
+    /* display-flex is mandatory to work justify-content and align-items  */
+    /* justify-content centers horizontally */
+    align-items: center;
+    /* algin-items centers vertically */
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>flex-grow</title>
+<style>
+
+.container{
+    display:flex;
+}
+
+.box{
+    flex-grow: 1;
+    /* you can give separate values for separate boxes */
+    background:orange;
+    padding:20px;
+    margin:5px;
+}
+
+.boxes{
+    background: yellow;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.box1,.box3{
+    flex-grow: 1;
+}
+
+.box2{
+    flex-grow: 3;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+<div class="box">1</div>
+<div class="box">2</div>
+<div class="box">3</div>
+</div>
+
+<div class="container">
+    <div class="boxes box1">a</div>
+    <div class="boxes box2">b</div>
+    <div class="boxes box3">c</div>
+</div>
+
+</body>
+</html>
