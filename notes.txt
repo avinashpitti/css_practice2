@@ -96,6 +96,10 @@ top,left,right,bottom doesn't work with it,
 so elements appear in normal document flow
 
 position:relative
-The element moves relative to its position
-It ignores normal documentflow
-It moves based on the parent with position:relative
+relative moves an element relative to its original position.
+The element still keeps its original space in the document flow.
+
+position:absolute
+The element is positioned relative to the nearest positioned parent.
+If no parent has position set, it will move relative to the page (body).
+The element does NOT keep its original space.
