@@ -103,3 +103,14 @@ position:absolute
 The element is positioned relative to the nearest positioned parent.
 If no parent has position set, it will move relative to the page (body).
 The element does NOT keep its original space.
+
+
+Responsive design:
+Responsive design means a website automatically adjusts its layout
+depending on screen size 
+
+media queries?
+Media Queries allow CSS to apply different styles for different
+screen sizes.
+
+
