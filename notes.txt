@@ -9,3 +9,61 @@ ex:
     a:hover{
         color:red;
     }
+
+
+### display properties
+Display: It defines the layout behavior of an element.
+
+block:takes full width
+inline: takes only content width
+inline-block:inline but allows width and height
+none:hides the element
+flex:flexbox layout(rows or columns-1 dimensional)
+gird:grid layout(rows and columns-2 dimensional)
+
+display:block
+Block elements start on a new line
+takes full width
+can set width and height
+common block level elements are : p,h1-h6,section,article
+
+display:inline
+Inline elements do not start on a newline
+only take content width
+width and height don't work
+
+display:inline-block
+This is a combination of inline + block
+elements stay in the same line but width and height work
+
+display:none
+completely removes the element from the page
+space is removed
+visibility:hidden
+hidden but space remains
+
+display:flex
+flexbox is a layout model used to arrange elements in a row or column
+flexbox has 2 main parts:
+flex container : The parent element
+flex items : The child elements inside the container
+
+
+display:flex-wrap
+By,default flexbox tries to place all items in one row
+sometimes,there is not enough space, so items overflow outside the container
+flex-wrap solves this by moving items to another line
+
+gap:
+gap is used to create space between flex items
+Earlier developers used margin to create a space between 2 elements
+Now,flexbox provides gap which is cleaner and easier
+
+flex-grow:
+flex-grow allows flex items to grow and occupy extra space in the container.
+
+flex-basis:
+flex-basis defines the initial size of a flex item before growing or shrinking.
+
+flex-sink:
+flex-shrink controls how items shrink if container space is small.
