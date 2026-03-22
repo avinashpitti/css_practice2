@@ -65,7 +65,7 @@ flex-grow allows flex items to grow and occupy extra space in the container.
 flex-basis:
 flex-basis defines the initial size of a flex item before growing or shrinking.
 
-flex-sink:
+flex-shink:
 flex-shrink controls how items shrink if container space is small.
 
 
