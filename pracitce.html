@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css practice</title>
+    <!-- <link rel="stylesheet" href="practice.css"> -->
+    <!-- internal and external css have the same specificity
+        whicever comes late wins, if external link is before style tag
+        in head section internal wins, if external is after style tag in head section external wins -->
+    <style>
+        p{
+            background-color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="practice.css">
+
+</head>
+<body>
+    <p >Lorem ipsum dolor sit amet consectetur.</p>
+</body>
+</html>
