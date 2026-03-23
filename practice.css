@@ -6,9 +6,23 @@
     transition: 3s;
     }
 
-.box:hover{
+/* .box:hover{
     background-color: yellow;
 
+} */
+
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+.box {
+  animation: move 2s infinite;
 }
 
 
