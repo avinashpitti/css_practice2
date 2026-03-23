@@ -2,11 +2,13 @@
     background-color: rebeccapurple;
     margin: 200px;
     height: 200px;
-    
     width: 190px;
-    transform: translate(40px,30px);
-    transform: scale(2.5);
-    /* transform: rotate(45deg); */
-    transform: skew(35deg);
+    transition: 3s;
+    }
+
+.box:hover{
+    background-color: yellow;
 
 }
+
+
