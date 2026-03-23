@@ -3,18 +3,16 @@
     margin: 200px;
     height: 200px;
     width: 190px;
-    transition: 3s;
+    /* transition: 3s; */
+    /* clip-path: circle(50%); */
+    /* clip-path: ellipse(50% 30%); */
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
     }
 
-@keyframes colorChange {
-    0% {background: red;}
-    50%{background: yellow;}
-    100%{background: green;}
-}
 
-.box {
+/* .box {
     animation: colorChange 3s infinite;
 }
-
+ */
 
 
