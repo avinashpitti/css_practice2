@@ -6,23 +6,15 @@
     transition: 3s;
     }
 
-/* .box:hover{
-    background-color: yellow;
-
-} */
-
-
-@keyframes move {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(100px);
-  }
+@keyframes colorChange {
+    0% {background: red;}
+    50%{background: yellow;}
+    100%{background: green;}
 }
 
 .box {
-  animation: move 2s infinite;
+    animation: colorChange 3s infinite;
 }
+
 
 
