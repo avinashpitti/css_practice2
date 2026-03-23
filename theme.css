@@ -1,0 +1,17 @@
+/* theme.css */
+:root {
+    --bg-color: #2c3e50;
+    --text-color: #ecf0f1;
+    --accent-color: #e74c3c;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
